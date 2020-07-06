@@ -1,8 +1,15 @@
-import WarframeItems from 'warframe-items'
+import WarframeItems, { WarframeItemsOptions } from 'warframe-items'
 
 export default class Items{
 
-    static getFirstItem(){
-        return 'Items1'
+    static getFirstItem():string{
+        const items = new WarframeItems({
+            category:['Primary']
+        })
+        return this.showItemName(items[0])
+    }
+
+    static showItemName (item: {name:string}):string{
+        return item.name
     }
 }

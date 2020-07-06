@@ -1,7 +1,7 @@
 import Items from '../src/items'
 describe('Items', function(){
     it('should return the first item', function(){
-        expect(Items.getFirstItem()).toBe('Items1')
+        expect(Items.getFirstItem()).toBe('Acceltra')
   
     });
 })
