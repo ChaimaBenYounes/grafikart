@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@types/express": "^4.17.6",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "warframe-items": "^1.973.0"
   }
 }
